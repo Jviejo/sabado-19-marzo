@@ -31,7 +31,8 @@ export default function Cliente() {
         <tbody>
           {data.data.map(cliente => (
             <tr key={cliente.customer_id}>
-              <td className='text-center'>{cliente.customer_id}</td>
+              <td className='text-center'>
+                {cliente.customer_id}</td>
               <td>{cliente.company_name}</td>
             </tr>
           ))}
